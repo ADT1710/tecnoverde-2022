@@ -1,0 +1,16 @@
+.voltarTopo{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    padding: .7rem;
+    background-color: #d9d5c9;
+    border: 5px solid #d5d0ae;
+    color: green;
+    font-weight: bold;
+    z-index: 3;
+}
+
+.voltarTopo:hover{
+    background-color: #d5d0ae;
+    border: 5px solid #d9d5c9;
+}
