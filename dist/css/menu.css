@@ -1,7 +1,9 @@
 .menu{
     display:flex;
     flex-direction: row;
-    background-color: darkseagreen;
+    background-color: #d9d5c9;
+    position: fixed;
+    width: 100%;
 }
 
 .menu_logo{
