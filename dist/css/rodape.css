@@ -1,0 +1,39 @@
+.rodape{
+    background-color: #d9d5c9;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1rem solid #d5d0ae;
+}
+
+.rodape_imagem{
+    width: 10%;
+}
+
+.rodape_menu{
+    line-height: 25px;
+}
+
+.rodape_menu--item:first-child{
+    font-weight: bolder;
+    font-size: 20px;
+    color:green;
+    margin-top: 1rem;
+}
+
+.rodape_menu--link{
+    text-decoration: none;
+    color: green;
+}
+
+.rodape_menu--link:hover{
+    font-style: italic;
+    color: darkgreen;
+}
+
+.rodape_texto{
+    line-height: 25px;
+    color: green;
+
+}
