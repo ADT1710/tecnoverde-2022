@@ -41,7 +41,24 @@
 }
 
 @media only screen and (max-width: 900px){
+    .conteudo{
+        padding: .5rem;
+    }
+
+    .conteudo_titulo{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .conteudo_subtitulo{
+        font-size: 25px;
+    }
+
     .conteudo_imagem{
         margin-left: 5rem;
+    }
+
+    .conteudo_texto{
+        padding: 0 1rem 2rem 1rem;
     }
 }
