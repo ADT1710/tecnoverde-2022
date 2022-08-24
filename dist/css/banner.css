@@ -2,3 +2,9 @@
     width: 100%;
     height: calc(100vh);
 }
+
+@media only screen and (max-width: 900px){
+    .banner_img{
+        height: 100%;
+    }
+}
