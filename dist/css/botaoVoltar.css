@@ -14,3 +14,10 @@
     background-color: #d5d0ae;
     border: 5px solid #d9d5c9;
 }
+
+@media only screen and (max-width: 900px){
+    .voltarTopo{
+        bottom: 50px;
+        right: 50px;
+    }
+}

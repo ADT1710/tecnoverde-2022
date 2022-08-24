@@ -37,3 +37,19 @@
     color:darkgreen;
     font-style: italic;
 }
+
+@media only screen and (max-width: 770px) {
+    .menu{
+        flex-direction: column;
+        position: initial;
+    }
+    .menu_logo{
+        width: 150px;
+        height: 105px;
+        margin-left: 9rem;
+    }
+    .menu_lista{
+        flex-direction: column;
+        line-height: 20px;
+    }
+}
