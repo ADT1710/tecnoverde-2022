@@ -51,5 +51,6 @@
     .menu_lista{
         flex-direction: column;
         line-height: 20px;
+        margin-bottom: 1rem;
     }
 }
