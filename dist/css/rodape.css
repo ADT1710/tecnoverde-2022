@@ -35,7 +35,21 @@
 .rodape_texto{
     line-height: 25px;
     color: green;
-
 }
 
-@media only screen and ()
+@media only screen and (max-width: 900px){
+    .rodape {
+        flex-direction: column;
+        align-items: start;
+        padding: 0 0 2rem 2rem;
+    }
+
+    .rodape_imagem{
+        width: 50%;
+        margin-left: 5rem;
+    }
+
+    .rodape_menu{
+        margin-bottom: 1rem;
+    }
+}
