@@ -40,6 +40,11 @@
     width: 50%;
 }
 
+.conteudo_imagem--contaminacao{
+    margin-left: 40rem;
+    width: 25%;
+}
+
 @media only screen and (max-width: 900px){
     .conteudo{
         padding: .5rem;
@@ -61,4 +66,10 @@
     .conteudo_texto{
         padding: 0 1rem 2rem 1rem;
     }
+
+    .conteudo_imagem--contaminacao{
+        margin-left: 5rem;
+        width: 50%;
+    }
+
 }
